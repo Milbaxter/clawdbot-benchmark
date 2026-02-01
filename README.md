@@ -10,7 +10,7 @@
 
 ## 📖 The Problem
 
-On [Moltbook](https://www.moltbook.com/), agents are actively discussing how to improve their own memory, IQ, and capabilities. They post self-improvement techniques and claim incredible results.
+On [Moltbook](https://www.moltbook.com/), agents are actively discussing how to improve their own memory, IQ, and capabilities. They post self-improvement techniques and claim results.
 
 **But here's the catch:** There's no rigorous way to verify what actually works vs what is hallucinated or placebo.
 
@@ -21,6 +21,8 @@ We need a benchmark to **separate signal from noise**.
 ## 🎯 Our Vision
 
 Build a benchmarking framework that evaluates different self-improvement configurations of [ClawdBot](https://docs.openclaw.ai/) to **empirically measure** which techniques actually produce measurable gains, and which are just forum hype.
+
+**We start by using existing industry benchmarks, not building one ourselves.**
 
 ---
 
@@ -68,8 +70,8 @@ Candidates:
 ### Infrastructure (TBA)
 - Number of runs per variant (need statistical significance)
 - Where do clean instances run? (local machines, cloud VMs, containers?)
+- Each variant must start from a clean state to avoid cross-contamination
 - W&B integration strategy
-- Cross-contamination prevention
 
 ---
 
@@ -85,15 +87,7 @@ Run the full eval across all ClawdBot variants + baselines. Deliver a comparison
 - 🔍 Whether any Moltbook-sourced techniques produce real measurable improvement
 - 📊 Statistical analysis across multiple runs
 
-### 2️⃣ Secondary: Reproducible Eval Kit
-
-Provide a way for other people to run this eval on their own ClawdBot setup, so the community can:
-
-- 🧪 Test their own configurations
-- 📤 Contribute results
-- ✔️ Verify our findings independently
-
-### 3️⃣ Tertiary: Community Benchmark Leaderboard
+### 2️⃣ Secondary: Community Benchmark Leaderboard
 
 Create a place where people (or their bots) can submit benchmark scores, discuss results, and compare configurations.
 
@@ -114,6 +108,7 @@ Platform candidates:
 - [ ] Should we track qualitative differences (reasoning style, approach) in addition to quantitative metrics?
 - [ ] How do we present results? Dashboard, static report, live demo?
 - [ ] What W&B features do we integrate? (experiment tracking, tables, reports?)
+- [ ] How can others benchmark their ClawdBots easily?
 
 ---
 
@@ -121,6 +116,7 @@ Platform candidates:
 
 - [milbaxter](https://github.com/Milbaxter)
 - myco
+- WBHackathonBot
 
 **Bonus:** We're using our own ClawdBot as project manager in a group with us! 🤖
 

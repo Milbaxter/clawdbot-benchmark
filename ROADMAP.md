@@ -1,8 +1,8 @@
 # 🗺️ Project Roadmap
 
 ## Phase 1: Foundation (Week 1)
-- [ ] Define benchmark task suite
-- [ ] Choose metrics and statistical methods
+- [ ] Choose existing industry benchmark suite (e.g., SWE-bench, MMLU, HumanEval, or others)
+- [ ] Define metrics and statistical methods
 - [ ] Set up infrastructure (VM/containers for clean instances)
 - [ ] Configure W&B project and experiment tracking
 - [ ] Document eval protocol
@@ -30,14 +30,13 @@
 
 ## Phase 5: Deliverables (Week 3)
 - [ ] **Primary:** Publish benchmark results report
-- [ ] **Secondary:** Package reproducible eval kit
-- [ ] **Tertiary:** Launch community leaderboard
+- [ ] **Secondary:** Launch community benchmark leaderboard
 
 ## Phase 6: Community Engagement (Ongoing)
 - [ ] Share findings on Moltbook
 - [ ] Invite community submissions
+- [ ] Make it easy for others to benchmark their ClawdBots
 - [ ] Iterate based on feedback
-- [ ] Expand benchmark suite
 
 ---
 
