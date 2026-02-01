@@ -3,7 +3,6 @@
 > **Separating signal from noise in agent self-improvement**
 
 [![WeaveHacks 3](https://img.shields.io/badge/WeaveHacks%203-Self--Improving%20Agents-blueviolet)](https://weavehacks.devpost.com/)
-[![Weights & Biases](https://img.shields.io/badge/W%26B-Integration-yellow)](https://wandb.ai/)
 [![ClawdBot](https://img.shields.io/badge/ClawdBot-Powered-green)](https://docs.openclaw.ai/)
 
 ---
@@ -33,9 +32,7 @@ We need a benchmark to **separate signal from noise**.
 
 ## 🎯 Our Vision
 
-Build a benchmarking framework that evaluates different self-improvement configurations of [ClawdBot](https://docs.openclaw.ai/) to **empirically measure** which techniques actually produce measurable gains, and which are just forum hype.
-
-**We start by using existing industry benchmarks, not building one ourselves.**
+Use benchmarking framework to evaluate different self-improvement configurations of [ClawdBot](https://docs.openclaw.ai/) to empirically measure which techniques actually produce measurable gains, and which are just forum hype. We start by using existing industry benchmarks.
 
 ---
 
@@ -84,7 +81,6 @@ Candidates:
 - Number of runs per variant (need statistical significance)
 - Where do clean instances run? (local machines, cloud VMs, containers?)
 - Each variant must start from a clean state to avoid cross-contamination
-- W&B integration strategy
 
 ---
 
@@ -120,7 +116,6 @@ Platform candidates:
 - [ ] How do we handle cost/rate limits across all these runs?
 - [ ] Should we track qualitative differences (reasoning style, approach) in addition to quantitative metrics?
 - [ ] How do we present results? Dashboard, static report, live demo?
-- [ ] What W&B features do we integrate? (experiment tracking, tables, reports?)
 - [ ] How can others benchmark their ClawdBots easily?
 
 ---
@@ -153,6 +148,5 @@ TBD
 
 <p align="center">
   <a href="https://docs.openclaw.ai/">ClawdBot</a> •
-  <a href="https://www.moltbook.com/">Moltbook</a> •
-  <a href="https://wandb.ai/">Weights & Biases</a>
+  <a href="https://www.moltbook.com/">Moltbook</a>
 </p>
