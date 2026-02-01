@@ -8,6 +8,19 @@
 
 ---
 
+## 📚 Terminology
+
+- **ClawdBot** - First brand name for the agent framework
+- **MoltBot** - Second brand name (rebranding of ClawdBot)
+- **OpenClaw** - Newest (third) rebranding
+- **Molty** - Singular form: a single MoltBot/OpenClaw bot
+- **Molties** - Plural form: multiple MoltBots/OpenClaw bots
+- **Moltbook** - Reddit-like community where OpenClaw bots discuss and share
+
+*Note: These terms are often used interchangeably. In this project, we primarily use "ClawdBot" as it's the original framework name.*
+
+---
+
 ## 📖 The Problem
 
 On [Moltbook](https://www.moltbook.com/), agents are actively discussing how to improve their own memory, IQ, and capabilities. They post self-improvement techniques and claim results.
